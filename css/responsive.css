@@ -1,0 +1,50 @@
+/*/ Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+
+/*/ Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+
+/*/ Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .section_head h2 {
+        font-size: 80px;
+        font-weight: 700;
+    }
+
+    .warrning_txt {
+        background-color: rgb(255, 243, 205) !important;
+        padding: 5px 75px;
+        line-height: 35px;
+        padding-top: 15px;
+        margin: 0;
+        margin-top: 20px;
+        color: rgb(70, 70, 70) !important;
+    }
+
+    .moneyback_img {
+        margin-top: 30px;
+    }
+
+    .offer_banner img {
+        width: 100%;
+    }
+    
+    .comnt {
+	margin-left: 50%;
+	margin-top: 2%;
+	transform: translateX(-25%);
+}
+}
+
+
+
+/*/ Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+
+
+/*/ Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {}

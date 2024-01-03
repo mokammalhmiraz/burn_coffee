@@ -1,0 +1,498 @@
+/*google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+button:focus {
+    outline: 0px dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+p {
+    font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    line-height: 1;
+}
+
+.clr {
+    clear: both;
+}
+
+
+.navbar-toggler-icon i {
+    color: gray;
+    font-size: 65px;
+}
+
+
+
+
+/* section head style */
+
+.section_head {}
+
+.section_head h5 {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.section_head h2 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.section_head p {
+    color: #666666;
+    font-size: 14px;
+    padding: 0 25px;
+}
+
+
+
+/* End of common CSS */
+
+.cookies_area {
+    position: fixed;
+    overflow: hidden;
+    box-sizing: border-box;
+    font-family: Helvetica, Calibri, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    display: flex;
+    flex-wrap: nowrap;
+    z-index: 9999;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: rgb(255, 255, 255);
+    background-color: rgb(37, 46, 57);
+    padding: 1em 1.8em;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+}
+
+.cc_banner {
+    flex: 1;
+}
+
+.cc_banner a{
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+
+.cc_banner a:hover{
+    opacity: 1;
+}
+
+.accept_btn {
+	display: flex;
+	align-items: center;
+	align-content: space-between;
+	margin-left: 850px;
+}
+
+.accept_btn a {
+    color: rgb(255, 255, 255);
+    border-color: transparent;
+    background-color: rgb(20, 167, 208);
+    width: 140px;
+    display: block;
+    padding: 0.4em 0.8em;
+    font-size: .9em;
+    font-weight: 700;
+    border-width: 2px;
+    border-style: solid;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.accept_btn a:hover{
+    background-color: rgb(58, 205, 246);
+    text-decoration: underline;
+}
+
+/*=========================
+
+    02.HEADER AREA CSS
+
+=========================*/
+
+.navbar.navbar-expand-lg {
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+.navbar {
+    background-color: #000;
+     !important
+}
+
+.nav_logo {
+    font-family: "Open Sans";
+    font-weight: 700;
+    line-height: 1.6em;
+    color: rgb(70, 70, 70);
+    color: rgb(255, 255, 255) !important;
+    font-size: 48px !important;
+    margin-left: 10%;
+}
+
+.nav_btn {
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+    border-right: none;
+    border-radius: 5px;
+    font-family: inherit;
+    border-bottom: 4px solid rgb(225, 202, 20);
+    padding: 15px 40px !important;
+    margin: 5px !important;
+    background-image: linear-gradient(rgb(255, 227, 0), rgb(255, 227, 0)) !important;
+    background-size: auto !important;
+    background-position: 50% 50% !important;
+    background-attachment: scroll !important;
+    background-repeat: no-repeat !important;
+}
+
+.nav_btn:hover {
+    color: #fff;
+    transition: linear;
+}
+
+.navbar-nav.ml-auto {
+    margin-right: 30%;
+}
+
+/*=========================
+
+    03.Banner AREA CSS
+
+=========================*/
+
+.banner_link {
+    margin-left: 20%;
+}
+
+.banner_link .nav_btn {
+    width: 80%;
+    box-shadow: rgba(0, 0, 0, 0.51) 0px 8px 12px 0px;
+}
+
+.banner_txt {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.banner_txt p {
+    line-height: 1.6em;
+    padding: 0 50px;
+}
+
+
+/*=========================
+
+    04.SECOND AREA CSS
+
+=========================*/
+
+.second_section {
+    background-color: rgb(231, 227, 227) !important;
+}
+
+.what_is_txt p {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6em;
+    padding: 0 15px;
+}
+
+/*=========================
+
+    05.BENIFIT AREA CSS
+
+=========================*/
+
+
+.benifit_txt p {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6em;
+    padding: 0 25px;
+}
+
+.benifit_list img {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    line-height: 1em;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.benifit_list p {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.benifit_list li {
+    line-height: 25px;
+}
+
+/*=========================
+
+    06.RESULT AREA CSS
+
+=========================*/
+
+.result_txt p {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6em;
+    padding: 0 20px;
+}
+
+.comnt {
+    margin-left: 70%;
+    margin-top: 2%;
+}
+
+.user_img {
+    width: 86px;
+    height: 86px;
+    border: 2px solid #eaeaea;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+.user_txt {
+    background-color: rgb(242, 244, 245) !important;
+    border-radius: 20px;
+    width: 595px;
+    padding: 10px;
+}
+
+.user_star {
+    padding-bottom: 15px;
+}
+
+.user_txt .user_star i {
+    color: #F0C419;
+}
+
+.user_txt .txt {
+    font-size: 14px;
+}
+
+.user_txt .txt span {
+    color: rgb(56, 88, 152) !important;
+}
+
+.post_react {
+    margin-bottom: -50px;
+}
+
+.post_react p {
+    font-size: 12px;
+}
+
+.post_react p span {
+    color: rgb(56, 88, 152) !important;
+}
+
+/*=========================
+
+    07.WORK AREA CSS
+
+=========================*/
+
+.work_section {
+    background-color: rgb(231, 227, 227) !important;
+}
+
+.work_txt p {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6em;
+    padding: 0 16px;
+}
+
+/*=========================
+
+    08.BUY AREA CSS
+
+=========================*/
+
+.buy_section {
+    background: #000;
+    color: #fff;
+}
+
+.buy_section .buy_txt p {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6em;
+    padding: 0 16px;
+}
+
+.buy_img {
+    padding-left: 50px;
+}
+
+/*=========================
+
+    09.DETAILS AREA CSS
+
+=========================*/
+
+.details_list img {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    line-height: 1em;
+    margin-top: 10px;
+}
+
+.details_list .list_item p {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 40px;
+    padding: 0 10px;
+}
+
+.details_list .list_item span {
+    font-weight: 700;
+}
+
+/*=========================
+
+    10.MONEY AREA CSS
+
+=========================*/
+
+.money_section {
+    background-color: rgb(231, 227, 227) !important;
+}
+
+.money_txt p {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 30px;
+    padding: 0 10px;
+}
+
+/*=========================
+
+    11.MONEYBACK AREA CSS
+
+=========================*/
+
+.moneyback_section {
+    background: #000;
+    color: #fff;
+}
+
+.moneyback_txt p {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 30px;
+    padding: 0 10px;
+}
+
+/*=========================
+
+    12.OFFER AREA CSS
+
+=========================*/
+
+.offer_link .nav_btn {
+    font-size: 35px;
+    padding: 10px 75px !important;
+    box-shadow: rgba(0, 0, 0, 0.51) 0px 8px 12px 0px;
+}
+
+.warrning_txt {
+    background-color: rgb(255, 243, 205) !important;
+    margin: 30px 210px;
+    padding: 5px 75px;
+    line-height: 35px;
+    padding-top: 15px;
+    color: rgb(70, 70, 70) !important;
+}
+
+.warrning_txt p span {
+    color: rgb(197, 48, 48) !important;
+    font-weight: 700;
+}
+
+.warrning_txt p .c_black {
+    color: rgb(70, 70, 70) !important;
+    font-weight: 700;
+}
+
+/*=========================
+
+    13.BOTTOM AREA CSS
+
+=========================*/
+
+.bottom_links a {
+    color: rgb(51, 51, 51);
+    text-decoration: underline;
+}
+
+.bottom_links a:hover {
+    text-decoration: none;
+    transition: all linear;
+}
+
+.disclamer_txt {
+    color: rgb(144, 144, 144);
+    font-size: 17px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 28px;
+    padding: 0 10px;
+}
